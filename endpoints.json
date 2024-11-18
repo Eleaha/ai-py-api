@@ -1,0 +1,17 @@
+{
+    "GET /":{
+        "description": "serves a description of all endpoints and associated queries"
+    },
+    "GET /letter":{
+        "description": "serves a new generated letter using the given query parameters. Requires params are from_name, subject and emotion",
+        "query params": {
+            "to_name": "the name of who the letter is to",
+            "from_name": "the name of who the letter is to",
+            "subject": "what the letter should be about",
+            "emotion": "the users feelings towards the subject",
+            "location": "the location of the subject",
+            "when": "when the subject occoured",
+            "additional": "any additional information to add"
+        }
+    }
+}

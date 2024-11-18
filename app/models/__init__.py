@@ -1,0 +1,1 @@
+from .lettermodels import generate_letter
